@@ -14,10 +14,17 @@ cd level-1
 mvn test
 ```
 
-Compile and package the code:
+Run Level 2's JUnit tests:
+
+```bash
+cd level-2
+mvn test
+```
+
+Compile and package either level:
 
 ```bash
 mvn clean package
 ```
 
-Level 1 is a service-only exercise with no application `main` method; its tests are the execution entry point.
+Levels 1 and 2 are service-only exercises with no application `main` method; their tests are the execution entry points.
