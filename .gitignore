@@ -5,6 +5,3 @@ target/
 .idea/
 *.iml
 .DS_Store
-
-# Local exercise instructions
-Task Prompt
