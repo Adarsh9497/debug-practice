@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: careslot-appointment-api
+
+server:
+  port: 8080
