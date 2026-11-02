@@ -21,10 +21,22 @@ cd level-2
 mvn test
 ```
 
-Compile and package either level:
+Run Level 3's Spring Boot API tests:
+
+```bash
+cd level-3
+mvn test
+```
+
+Compile and package any level:
 
 ```bash
 mvn clean package
 ```
 
-Levels 1 and 2 are service-only exercises with no application `main` method; their tests are the execution entry points.
+Levels 1 and 2 are service-only exercises whose tests are the execution entry point. Level 3 is a Spring Boot application and can also be started with:
+
+```bash
+cd level-3
+mvn spring-boot:run
+```
